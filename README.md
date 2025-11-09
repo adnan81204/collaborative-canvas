@@ -104,16 +104,16 @@ The server maintains the strokes in memory and synchronizes them between users.
 collaborative-canvas/
 │
 ├── client/
-│   ├── index.html         -> User interface
-│   ├── style.css          -> Styling for canvas and toolbar
-│   ├── main.js            -> Initializes tools and handles events
-│   ├── canvas.js          -> Drawing logic
-│   └── websocket.js       -> WebSocket client handling
+│ ├── index.html → Main UI for canvas and toolbar
+│ ├── style.css → Styling and responsive layout
+│ ├── main.js → Initializes tools and event listeners
+│ ├── canvas.js → Handles drawing and rendering logic
+│ └── websocket.js → Manages client-side WebSocket communication
 │
 ├── server/
-│   ├── server.js          -> Express and WebSocket server
-│   ├── drawing-state.js   -> Stores and manages drawing operations
-│   └── room.js            -> Manages active rooms and clients
+│ ├── server.js → WebSocket server using Node.js
+│ ├── drawing-state.js → Manages strokes and undo/redo logic
+│ └── room.js → Handles connected users and rooms
 │
 ├── package.json
 ├── README.md
