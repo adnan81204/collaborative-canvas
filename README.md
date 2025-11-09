@@ -98,30 +98,6 @@ The server maintains the strokes in memory and synchronizes them between users.
 
 ---
 
-## Folder Structure
-
-
-collaborative-canvas/
-│
-├── client/
-│ ├── index.html → Main UI for canvas and toolbar
-│ ├── style.css → Styling and responsive layout
-│ ├── main.js → Initializes tools and event listeners
-│ ├── canvas.js → Handles drawing and rendering logic
-│ └── websocket.js → Manages client-side WebSocket communication
-│
-├── server/
-│ ├── server.js → WebSocket server using Node.js
-│ ├── drawing-state.js → Manages strokes and undo/redo logic
-│ └── room.js → Handles connected users and rooms
-│
-├── package.json
-├── README.md
-└── ARCHITECTURE.md
-
-
----
-
 ## Known Limitations
 
 * Undo and redo affect the shared canvas globally.
