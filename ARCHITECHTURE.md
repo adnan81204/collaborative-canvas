@@ -1,8 +1,5 @@
 
 ---
-
-## **ARCHITECTURE.md**
-```markdown
 # Architecture Documentation
 
 This document describes the architecture, data flow, and design decisions behind the **Real-Time Collaborative Drawing Canvas** project.  
